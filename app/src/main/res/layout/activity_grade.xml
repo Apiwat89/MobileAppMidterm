@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GradeActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4C53AF"
+        android:text="CalculateGrade"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:background="#FFE0E0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/house"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE0E0"
+            android:backgroundTintMode="src_in"
+            android:hint="Grade 1:"
+            android:inputType="text|textPersonName"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFE0E0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/grade2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE0E0"
+            android:hint="Grade 2:"
+            android:inputType="text|textPersonName"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFE0E0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/grade3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE0E0"
+            android:hint="Grade 3:"
+            android:inputType="text|textPersonName"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFE0E0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/grade4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE0E0"
+            android:hint="Grade 4:"
+            android:inputType="text|textPersonName"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFE0E0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/grade5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE0E0"
+            android:hint="Grade 5:"
+            android:inputType="text|textPersonName"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="Calculate"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outputLayout"
+        android:layout_width="380sp"
+        android:layout_height="187dp"
+        android:layout_gravity="center"
+        android:background="#D0F4FA"
+        android:textColorHint="#E91E63">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D0F4FA"
+            android:enabled="false"
+            android:hint="Output"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textColorHint="#0044FF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="Back"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
